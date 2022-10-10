@@ -1,0 +1,26 @@
+{
+  "name": "qr-code-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hack2skill/qrcodeGenerator.git"
+  },
+  "author": "Hack2skill",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hack2skill/qrcodeGenerator/issues"
+  },
+  "homepage": "https://github.com/hack2skill/qrcodeGenerator#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "qrcode": "^1.5.1"
+  }
+}
