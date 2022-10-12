@@ -17,6 +17,15 @@ To Contribute to this repository follow these commands in your Terminal:
 - ` cd ./client/`
 - `npm i`
 
+4. Run the Client - front end
+ - `npm start`
+
+5. Run the Backend in another Terminal
+- `cd ..`
+- `npm run dev`
 
 
+## Getting Help
+
+Incase you run into difficulties, discuss your project on the community https://discord.gg/BM3yYfg4
 
