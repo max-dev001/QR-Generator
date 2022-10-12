@@ -1,6 +1,6 @@
 # QR Code Generator by Hack2skill
 QR Code generator is an online tool that can easily convert a text or Url into a QR code.
-These Qr codes make interaction and enagaing with Content and links easier.
+These QR codes will engage people and make interaction using Content & links easier. This is one of the many open source projects undertaken by Hack2skill in collaboration with developers. Our aim is to generate more such contributions to open source respositories, in the collaboration with other open source developers. Don't forget to check out our other open source projects, right here!
 
 
 ## Installation
