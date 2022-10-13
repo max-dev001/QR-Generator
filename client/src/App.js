@@ -13,8 +13,12 @@ function App() {
     console.log(response);
 
     document.getElementById('qrCode').src = response.image;
+    document.getElementById('qrdown').href = response.image;
+    document.getElementById('visible').textContent='Download';
+    document.getElementById('visible').className='text-white p-2 rounded-md bg-blue-300';
 
   }
+  
   return (
     <div className="flex flex-col gap-12 p-12 justify-center items-center">
       <div className='w-100 flex justify-center items-center'><img src='/H2S_Gradient_Logo.png' width='120'/></div>
@@ -44,7 +48,9 @@ function App() {
         </div>
         <div className='flex flex-col md:w-1/2 rounded-lg justify-center items-center bg-indigo-200'>
           <img src='' id='qrCode' width='250'/>
-        </div>
+          <a href='' id='qrdown' download='qrcode'>
+          <button  className='' id="visible"></button>
+        </a></div>
       </div>
     </div>
   );
