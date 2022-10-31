@@ -27,7 +27,7 @@ function App() {
   return (
     <div className="flex flex-col gap-12 py-8 px-10 justify-center items-center">
       <div className='w-100 flex justify-center items-center'>
-        <img src='/H2S_Gradient_Logo.png' width='120' alt='logo'/></div>
+        <img src='/H2S_Gradient_Logo.png' width='120' alt='H2S logo' /></div>
       <div className='flex flex-col md:flex-row gap-5 lg:w-4/5'>
 
         <div className='flex flex-col md:w-1/2 px-6 g py-4 gap-6 bg-white rounded-lg lightShadow justify-center items-center'>
@@ -54,7 +54,7 @@ function App() {
           <button onClick={generate} className='text-white p-2 rounded-md bg-blue-300 hover:bg-sky-500'>Generate</button>
         </div>
         <div className='flex flex-col md:w-1/2 rounded-lg justify-center items-center bg-indigo-200'>
-          <img src='' id='qrCode' width='250'/>
+          <img src='' alt='QR code to be generated' id='qrCode' width='250'/>
           <a href='' id='qrdown' download='qrcode'className='mt-3'>
           <button  className='' id="visible"></button>
         </a></div>
