@@ -54,7 +54,7 @@ function App() {
         </div>
         <div className='flex flex-col md:w-1/2 rounded-lg justify-center items-center bg-indigo-200'>
           <img src='' id='qrCode' width='250'/>
-          <a href='' id='qrdown' download='qrcode'>
+          <a href='' id='qrdown' download='qrcode'className='mt-3'>
           <button  className='' id="visible"></button>
         </a></div>
       </div>
