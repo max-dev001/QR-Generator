@@ -18,21 +18,12 @@ function App() {
     console.log(response);
 
     document.getElementById('qrCode').src = response.image;
+    document.getElementById('qrdown').href = response.image;
+    document.getElementById('visible').textContent='Download';
+    document.getElementById('visible').className='text-white p-2 rounded-md bg-blue-300';
 
   }
-  const downloadQRCode = () => {
-    // Generate download with use canvas and stream
-    const canvas = document.getElementById("qrCode");
-    const pngUrl = canvas
-      .toDataURL("image/png")
-      .replace("image/png", "image/octet-stream");
-    let downloadLink = document.createElement("a");
-    downloadLink.href = pngUrl;
-    downloadLink.download = `${qrValue}.png`;
-    document.body.appendChild(downloadLink);
-    downloadLink.click();
-    document.body.removeChild(downloadLink);
-  };
+
   return (
     <div className="flex flex-col gap-12 py-8 px-10 justify-center items-center">
       <div className='w-100 flex justify-center items-center'>
@@ -61,13 +52,11 @@ function App() {
           </div>
           <button onClick={generate} className='text-white p-2 rounded-md bg-blue-300 hover:bg-blue-500'>Generate</button>
         </div>
-        <div className='flex flex-col md:w-1/2  rounded-lg justify-center items-center bg-indigo-200'>
-          <img src='' id='qrCode' width='250' alt='qr'/>
-          <button className='text-white bg-black rounded-3xl py-5 px-8 my-5 hover:text-black hover:bg-green-500' 
-          onClick={downloadQRCode}>
-          Download QR Code
-        </button>
-        </div>
+        <div className='flex flex-col md:w-1/2 rounded-lg justify-center items-center bg-indigo-200'>
+          <img src='' id='qrCode' width='250'/>
+          <a href='' id='qrdown' download='qrcode'>
+          <button  className='' id="visible"></button>
+        </a></div>
       </div>
     </div>
   );
