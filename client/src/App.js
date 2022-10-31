@@ -29,6 +29,7 @@ function App() {
       <div className='w-100 flex justify-center items-center'>
         <img src='/H2S_Gradient_Logo.png' width='120' alt='logo'/></div>
       <div className='flex flex-col md:flex-row gap-5 lg:w-4/5'>
+
         <div className='flex flex-col md:w-1/2 px-6 g py-4 gap-6 bg-white rounded-lg lightShadow justify-center items-center'>
           <h1 className='text-blue-300 text-3xl bg-white '>Generate QR Code</h1>
           <input id="stringInput" className=' p-2 w-10/12 rounded-md bg-back' onChange={handleOnChange} placeholder='Enter URL Here'/>
@@ -50,7 +51,7 @@ function App() {
           <div className='flex flex-col justify-start w-4/5 gap-4'>
             <input type='file'/>
           </div>
-          <button onClick={generate} className='text-white p-2 rounded-md bg-blue-300 hover:bg-blue-500'>Generate</button>
+          <button onClick={generate} className='text-white p-2 rounded-md bg-blue-300 hover:bg-sky-500'>Generate</button>
         </div>
         <div className='flex flex-col md:w-1/2 rounded-lg justify-center items-center bg-indigo-200'>
           <img src='' id='qrCode' width='250'/>
