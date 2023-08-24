@@ -2,7 +2,6 @@
 The QR Code generator is an online tool that can easily convert a text or Url into a QR code.
 These QR codes will engage people and make interaction using Content & links easier. This is one of the many open-source projects undertaken by Hack2skill. Our aim is to generate more such open-source repositories, in the collaboration with other open-source developers. Don't forget to check out our other open-source projects, right [`here!`](https://github.com/hack2skill)
 
-
 ## Installation
 To Contribute to this repository follow these commands in your Terminal:
 
@@ -23,7 +22,6 @@ To Contribute to this repository follow these commands in your Terminal:
 5. Run the Backend in another Terminal
 - `cd ..`
 - `npm run dev`
-
 
 ## Getting Help
 
