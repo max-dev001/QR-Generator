@@ -6,10 +6,14 @@ These QR codes will engage people and make interaction using Content & links eas
 To Contribute to this repository follow these commands in your Terminal:
 
 1. Clone the Repository
-- ` git clone https://github.com/hack2skill/qrcodeGenerator.git`
+- ` git clone https://github.com/onosaito/qr-generator.git`
 
 2. After cloning the repository install all dependencies
+
 - `cd qr-codeGenerator`
+- 
+## install node modules.
+
 - `npm i`
 
 3. Install dependencies in client as well 
