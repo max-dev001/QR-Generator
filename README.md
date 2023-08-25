@@ -9,7 +9,7 @@ To Contribute to this repository follow these commands in your Terminal:
 - ` git clone https://github.com/hack2skill/qrcodeGenerator.git`
 
 2. After cloning the repository install all dependencies
-- `cd qrcodeGenerator`
+- `cd qr-codeGenerator`
 - `npm i`
 
 3. Install dependencies in client as well 
