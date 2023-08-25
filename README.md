@@ -10,7 +10,7 @@ To Contribute to this repository follow these commands in your Terminal:
 - ` git clone https://github.com/onosaito/qr-generator.git`
 
 2. After cloning the repository install all dependencies
-
+##ttttt
 - `cd qr-codeGenerator`
 - 
 ## install node modules.
